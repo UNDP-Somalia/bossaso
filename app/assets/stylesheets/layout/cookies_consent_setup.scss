@@ -12,11 +12,11 @@
 
   .close-button {
     @include close-button;
-    position: relative;
+    bottom: auto;
     left: auto;
+    position: relative;
     right: auto;
     top: auto;
-    bottom: auto;
   }
 
   button {
@@ -37,6 +37,10 @@
       @include breakpoint(small only) {
         margin-bottom: $line-height / 3;
       }
+    }
+
+    &.save-cookies-preferences {
+      @include hollow-button;
     }
   }
 }
