@@ -1,0 +1,34 @@
+so:
+  devise_views:
+    users:
+      registrations:
+        new:
+          gender_label: "Jinsiga"
+          gender:
+            male: Lab
+            female: Dhedig
+          last_education_degree_label: "Shahaado waxbarasho ee ugu dambeysay"
+          last_education_degree:
+            non: Maya
+            primary_elementary: Hoose
+            preparatory: Diyaarinta
+            secondary: Labaad
+            bachelor: Doob
+            diploma: Diblooma
+            masters: Sayid
+            phd: PhD
+          city_label: "Magaalada"
+          city:
+            baidoia: Baydhabo
+          village_label: "Degmada"
+          village:
+            isha: Isha
+            darusalam: Darusalam
+            horseed: Horseed
+            berdale: Berdale
+            howl_wadaag: Howl Wadaag
+            wadajir: Wadajir
+            weberi: Weberi
+            salamey: Salamey
+            towfiiq: Towfiiq
+            adaado: Adaado
