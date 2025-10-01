@@ -7,23 +7,29 @@ class User
     primary_elementary
     preparatory
     secondary
-    bachelor
     diploma
-    masters
+    bachelor
+    master
     phd
   ].freeze
 
   VILLAGE = %w[
-    isha
-    darusalam
     horseed
-    berdale
-    howl_wadaag
+    kulmiye
+    hawl_wadaag
+    october
+    hormuud
     wadajir
-    weberi
-    salamey
-    towfiiq
-    adaado
+    x_carab
+    1da_luulyo
+    suweeto
+    dayax
+    gusoore
+    26_june
+    girible_a
+    sanfarow
+    gitible_b
+    girible_ubax
   ].freeze
 
   validates :gender, inclusion: { in: GENDER }, allow_blank: true

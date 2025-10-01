@@ -36,7 +36,7 @@
       <%= f.select :last_education_degree, options_for_select(education_options), include_blank: true, label: t("devise_views.users.registrations.new.last_education_degree_label") %>
 
       <%= f.select :city, options_for_select([
-          [t("devise_views.users.registrations.new.city.baidoia"), 'baidoia']
+          [t("devise_views.users.registrations.new.city.bossaso"), 'bossaso']
         ]), include_blank: false, label: t("devise_views.users.registrations.new.city_label") %>
 
       <% village_options = User::VILLAGE.map { |g| [t("devise_views.users.registrations.new.village.#{g}"), g] } %>
